@@ -1,9 +1,9 @@
-import { HomeNav } from '../components';
+import { Header, HomeNav } from '../components';
 
 const Home = () => {
   return (
     <>
-      <HomeNav />
+      <Header />
     </>
   );
 };

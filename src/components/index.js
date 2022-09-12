@@ -5,3 +5,5 @@ export { default as ImgCard } from './card/ImgCard';
 export { default as Product } from './products/Product';
 export { default as Products } from './products/Products';
 export { default as SectionProducts } from './sections/SectionProducts';
+export { default as Banner } from './banner/Banner';
+export { default as Footer } from './footer/Footer';

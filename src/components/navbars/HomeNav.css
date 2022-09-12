@@ -17,5 +17,5 @@
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .show > .nav-link {
-  color: var(--color-nav-active);
+  color: var(--color-text-secondary);
 }

@@ -1,7 +1,11 @@
-import React from 'react';
+import './ImgCard.css';
 
-const ImgCard = () => {
-  return <div>ImgCard</div>;
+const ImgCard = ({ src }) => {
+  return (
+    <div>
+      <img src={src} alt='img' className='card__img img-fluid' />
+    </div>
+  );
 };
 
 export default ImgCard;

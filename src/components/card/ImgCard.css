@@ -1,0 +1,4 @@
+.card__img {
+  box-shadow: var(--shadow-main);
+  width: 100%;
+}

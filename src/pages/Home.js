@@ -1,10 +1,15 @@
-import { Header, SectionProducts } from '../components';
+import { Banner, Footer, Header, SectionProducts } from '../components';
 
 const Home = () => {
   return (
     <>
       <Header />
-      <SectionProducts />
+      <main>
+        <SectionProducts />
+        <Banner />
+        <SectionProducts last />
+      </main>
+      <Footer />
     </>
   );
 };

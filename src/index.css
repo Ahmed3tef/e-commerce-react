@@ -2,10 +2,13 @@
 
 :root {
   --color-main: #e8c9aa;
-  --color-nav-active: #707070;
+  --color-badge: #e54242;
+  --color-banner: #f5f5f5;
+  --color-text-secondary: #707070;
   --color-white: #fff;
   --color-black: #000;
   --shadow-main: 0 0 1rem var(--color-main);
+  --shadow-banner: 0 0 2rem rgba(0, 0, 0, 0.16);
 }
 
 *,
@@ -42,7 +45,14 @@ h1,
 h2,
 h3,
 h4,
-ul {
+h5,
+ul,
+p {
   margin: 0;
   padding: 0;
+}
+
+input {
+  outline: none;
+  border: none;
 }

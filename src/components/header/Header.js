@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { HomeNav } from '../../components/index';
 import './Header.css';
-import carrousel from '../../assets/Image 36.png';
+import carrousel1 from '../../assets/Image 36.png';
 
 const Header = () => {
   return (
@@ -19,7 +19,7 @@ const Header = () => {
             <button className='cta'>Explore Now</button>
           </div>
           <div className='img-container'>
-            <img src={carrousel} alt='carousel-1' className='img-fluid' />
+            <img src={carrousel1} alt='carousel-1' className='img-fluid' />
           </div>
         </div>
       </Container>

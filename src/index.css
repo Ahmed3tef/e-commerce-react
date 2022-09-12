@@ -5,6 +5,7 @@
   --color-nav-active: #707070;
   --color-white: #fff;
   --color-black: #000;
+  --shadow-main: 0 0 1rem var(--color-main);
 }
 
 *,

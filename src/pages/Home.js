@@ -1,9 +1,10 @@
-import { Header, HomeNav } from '../components';
+import { Header, SectionProducts } from '../components';
 
 const Home = () => {
   return (
     <>
       <Header />
+      <SectionProducts />
     </>
   );
 };

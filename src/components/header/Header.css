@@ -3,11 +3,17 @@
   width: 100%;
   font-family: 'Segoe UI', sans-serif;
 }
-.carrousel {
+.carousel {
+  height: 100%;
+}
+.carousel-content {
   padding-top: 7rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.carousel-control-prev-icon {
+  color: black;
 }
 .typo {
   text-align: center;

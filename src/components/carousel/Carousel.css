@@ -1,0 +1,15 @@
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5% !important;
+  opacity: 1;
+}
+
+.carousel-control-prev svg,
+.carousel-control-next svg {
+  vertical-align: middle;
+  color: var(--color-black);
+  font-size: 4rem;
+}
+.carousel-indicators {
+  display: none;
+}

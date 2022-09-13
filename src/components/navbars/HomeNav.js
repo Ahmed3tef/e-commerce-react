@@ -8,12 +8,16 @@ const HomeNav = () => {
     <Navbar fixed='top' className='py-4'>
       <Container>
         <Nav className='me-auto'>
-          <Nav.Link className='p-0 ' href='#home'>
+          <NavLink
+            className={navData => (navData.isActive ? 'active' : '')}
+            to='/'>
             home
-          </Nav.Link>
-          <Nav.Link className='p-0 ' href='#categories'>
+          </NavLink>
+          <NavLink
+            className={navData => (navData.isActive ? 'active' : '')}
+            to='/categories'>
             categories
-          </Nav.Link>
+          </NavLink>
           <Nav.Link className='p-0 ' href='#account'>
             account
           </Nav.Link>

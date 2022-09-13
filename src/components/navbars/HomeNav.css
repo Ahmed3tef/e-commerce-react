@@ -5,17 +5,20 @@
   text-transform: uppercase;
   background-color: var(--color-white);
 }
-.nav-link {
+.nav-link,
+.navbar-nav a {
   color: var(--color-main);
   margin-right: 5rem;
 }
-.nav-link:hover {
+.nav-link:hover,
+.navbar-nav a:hover {
   color: var(--color-main);
 }
 .nav-link:last-of-type {
   margin-right: 0;
 }
 .navbar-nav .nav-link.active,
-.navbar-nav .show > .nav-link {
+.navbar-nav .show > .nav-link,
+.navbar-nav a.active {
   color: var(--color-text-secondary);
 }

@@ -56,3 +56,10 @@ input {
   outline: none;
   border: none;
 }
+
+a,
+a:hover,
+a:active {
+  color: var(--color-white);
+  text-decoration: none;
+}

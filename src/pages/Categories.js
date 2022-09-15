@@ -1,8 +1,12 @@
 import React from 'react';
-import { AltNav } from '../components';
+import { AltNav, CategoriesLayout, Footer } from '../components';
 
-const Categories = () => {
-  return <AltNav />;
-};
+const Categories = () => (
+  <>
+    <AltNav />
+    <CategoriesLayout />
+    <Footer />
+  </>
+);
 
 export default Categories;

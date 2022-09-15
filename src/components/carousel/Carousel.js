@@ -11,8 +11,8 @@ import './Carousel.css';
 const HeaderCarousel = () => {
   return (
     <Carousel nextIcon={<MdNavigateNext />} prevIcon={<MdNavigateBefore />}>
-      {[1, 2, 3].map(item => (
-        <Carousel.Item interval={3000}>
+      {[1, 2, 3].map((item, index) => (
+        <Carousel.Item interval={3000} key={index}>
           <Container className='h-100'>
             <div className='carousel-content'>
               <div className='typo'>

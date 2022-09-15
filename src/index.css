@@ -7,8 +7,11 @@
   --color-text-secondary: #707070;
   --color-white: #fff;
   --color-black: #000;
+  --color-bg-sidebar: #c8c8c8;
+  --color-subcategory-border: #e4e7ff;
   --shadow-main: 0 0 1rem var(--color-main);
   --shadow-banner: 0 0 2rem rgba(0, 0, 0, 0.16);
+  --border-subcategory: 3px solid var(--color-subcategory-border);
 }
 
 *,

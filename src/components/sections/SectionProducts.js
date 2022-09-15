@@ -27,8 +27,8 @@ const SectionProducts = props => {
             </Col>
 
             <Row className='mt-5'>
-              {[...new Array(6)].map(product => (
-                <Col xs={6} md={4} className=''>
+              {[...new Array(6)].map((product, index) => (
+                <Col xs={6} md={4} className='' key={index}>
                   <div className='product-content'>
                     <span className='product-badge'>hot</span>
                     <span className='product-like'>

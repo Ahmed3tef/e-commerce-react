@@ -5,7 +5,6 @@ const Categories = () => (
   <>
     <AltNav />
     <CategoriesLayout />
-    <Footer />
   </>
 );
 

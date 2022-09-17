@@ -1,13 +1,18 @@
 import { Home, Categories } from './pages';
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Router, Routes } from 'react-router-dom';
+import { Footer } from './components';
 
 function App() {
   return (
-    <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/categories/*' element={<Categories />} />
-    </Routes>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/categories/*' element={<Categories />} />
+      </Routes>
+
+      <Footer />
+    </Router>
   );
 }
 

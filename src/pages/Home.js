@@ -9,7 +9,6 @@ const Home = () => {
         <Banner />
         <SectionProducts last />
       </main>
-      <Footer />
     </>
   );
 };

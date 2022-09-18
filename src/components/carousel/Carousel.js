@@ -1,8 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import carrousel1 from '../../assets/Image 36.png';
 import { Container } from 'react-bootstrap';
-import nextArrow from '../../assets/next-arrow.svg';
-import prevArrow from '../../assets/prev-arrow.svg';
 
 import { MdNavigateNext, MdNavigateBefore } from 'react-icons/md';
 

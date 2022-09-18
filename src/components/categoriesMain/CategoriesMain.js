@@ -1,16 +1,20 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 // import { subCategories } from '../../utils/cosnts';
 import { SubCategory } from '../index';
-
+import { motion } from 'framer-motion';
 const CategoriesMain = () => {
   return (
     <main>
-      <Container fluid className=''>
+      <motion.div
+        className='container-fluid'
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.003 }}
+        exit={{ opacity: 0 }}>
         <SubCategory />
         <SubCategory />
         <SubCategory />
-      </Container>
+      </motion.div>
     </main>
   );
 };

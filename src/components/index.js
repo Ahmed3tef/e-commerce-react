@@ -11,6 +11,7 @@ export { default as Footer } from './footer/Footer';
 
 // categories page components
 
+export { default as AnimatedRoutes } from './animatedRoutes/AnimatedRoutes';
 export { default as CategoriesSidebar } from './categoriesSidebar/CategoriesSidebar';
 export { default as CategoriesLayout } from './categoriesLayout/CategoriesLayout';
 export { default as CategoriesMain } from './categoriesMain/CategoriesMain';

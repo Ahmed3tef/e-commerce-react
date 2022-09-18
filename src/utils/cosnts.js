@@ -1,18 +1,60 @@
+import { Supermarket } from '../pages';
+
 export const sidebarData = [
-  { title: 'Supermarket', path: 'supermarket' },
-  { title: 'Fashion', path: 'fashion' },
-  { title: 'Health & Beauty', path: 'health' },
-  { title: 'Electronics', path: 'electronics' },
-  { title: 'Sporting', path: 'sporting' },
-  { title: 'Gaming', path: 'gaming' },
-  { title: 'Home & Office', path: 'home' },
-  { title: 'Books & Movies', path: 'books' },
+  {
+    title: 'Supermarket',
+    path: 'supermarket',
+    element: <Supermarket />,
+    subPath: `food`,
+  },
+  {
+    title: 'Fashion',
+    path: 'fashion',
+    element: <Supermarket />,
+    subPath: `food`,
+  },
+  {
+    title: 'Health & Beauty',
+    path: 'health',
+    element: <Supermarket />,
+    subPath: `food`,
+  },
+  {
+    title: 'Electronics',
+    path: 'electronics',
+    element: <Supermarket />,
+    subPath: `food`,
+  },
+  {
+    title: 'Sporting',
+    path: 'sporting',
+    element: <Supermarket />,
+    subPath: `food`,
+  },
+  {
+    title: 'Gaming',
+    path: 'gaming',
+    element: <Supermarket />,
+    subPath: `food`,
+  },
+  {
+    title: 'Home & Office',
+    path: 'home',
+    element: <Supermarket />,
+    subPath: `food`,
+  },
+  {
+    title: 'Books & Movies',
+    path: 'books',
+    element: <Supermarket />,
+    subPath: `food`,
+  },
 ];
 
 export const subCategories = {
   supermarket: [
     'Food',
-    'Pevarages',
+    'Beverages',
     'Breakfast Food',
     'Laundry',
     'House Cleaning',

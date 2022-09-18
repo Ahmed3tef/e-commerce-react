@@ -26,19 +26,19 @@ const Footer = () => {
             <h4 className='footer__heading'>Follow Us On</h4>
             <div className='footer__social-icons'>
               <a
-                href='#'
+                href='/'
                 className='footer__social-icon'
                 style={{ backgroundColor: '#3a5a97' }}>
                 <FaFacebookF />
               </a>
               <a
-                href='#'
+                href='/'
                 className='footer__social-icon'
                 style={{ backgroundColor: '#2ac5f4' }}>
                 <FaTwitter />
               </a>
               <a
-                href='#'
+                href='/'
                 className='footer__social-icon'
                 style={{
                   backgroundImage:
@@ -54,19 +54,19 @@ const Footer = () => {
         <Container>
           <div className='foot__content'>
             <div className='foot__links'>
-              <a href='#' className='foot__link'>
+              <a href='/' className='foot__link'>
                 About Us
               </a>
               <div className='vr mx-2 opacity-100'></div>
-              <a href='#' className='foot__link'>
+              <a href='/' className='foot__link'>
                 Contact Us
               </a>
               <div className='vr mx-2 opacity-100'></div>
-              <a href='#' className='foot__link'>
+              <a href='/' className='foot__link'>
                 Order
               </a>
               <div className='vr mx-2 opacity-100'></div>
-              <a href='#' className='foot__link'>
+              <a href='/' className='foot__link'>
                 Our Support
               </a>
             </div>

@@ -1,0 +1,12 @@
+.sidebar-categories__container {
+  width: 24.5rem;
+  flex: 0 0 auto;
+  background-color: var(--color-bg-sidebar);
+}
+/*
+@media (max-width: 768px) {
+  .sidebar-categories__container {
+    width: auto;
+    display: flex;
+  }
+} */

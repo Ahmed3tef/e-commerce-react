@@ -4,7 +4,7 @@ import './subItem.css';
 
 const SubItem = props => {
   return (
-    <Col sm={6} md={3} lg={2} className='px-5'>
+    <Col sm={6} md={4} lg={3} xl={2} className='px-5'>
       <div className='subcategory__product'>
         <div className='subcategory__product-img'>
           <img src={props.image} alt='productImage' className='img-fluid' />

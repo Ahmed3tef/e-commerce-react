@@ -7,14 +7,8 @@ import './CategoriesLayout.css';
 const CategoriesLayout = () => {
   return (
     <Container fluid>
-      <Row>
-        <Col
-          style={{
-            backgroundColor: 'var(--color-bg-sidebar)',
-            width: '24.5rem',
-            flex: '0 0 auto',
-          }}
-          className='py-5'>
+      <Row className='flex-column flex-md-row'>
+        <Col className='py-5 sidebar-categories__container'>
           <CategoriesSidebar />
         </Col>
         <Col className='p-5'>
